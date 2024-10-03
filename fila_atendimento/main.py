@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, constr, validator
 from typing import List
 from datetime import datetime
-import random  # Importando a biblioteca random
+import random
 
 app = FastAPI()
 
